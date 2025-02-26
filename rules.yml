@@ -1,0 +1,213 @@
+version: "3.1"
+
+rules:
+  - rule: Greet the user (English & Swahili)
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - rule: Greet the user in Swahili
+    steps:
+      - intent: salamu
+      - action: utter_salamu
+
+  - rule: Say goodbye (English & Swahili)
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - rule: Say goodbye in Swahili
+    steps:
+      - intent: kwaheri
+      - action: utter_kwaheri
+
+  - rule: Handle follow-up questions (English & Swahili)
+    steps:
+      - intent: ask_follow_up
+      - action: utter_ask_follow_up
+
+  - rule: Handle follow-up questions in Swahili
+    steps:
+      - intent: uliza_zaidi
+      - action: utter_uliza_zaidi
+
+  - rule: Provide CBC general information (English & Swahili)
+    steps:
+      - intent: ask_cbc_info
+      - action: utter_ask_cbc_info
+
+  - rule: Provide CBC general information in Swahili
+    steps:
+      - intent: uliza_cbc
+      - action: utter_uliza_cbc
+
+  - rule: Explain CBC overview (English & Swahili)
+    steps:
+      - intent: ask_cbc_overview
+      - action: utter_ask_cbc_overview
+
+  - rule: Explain CBC overview in Swahili
+    steps:
+      - intent: eleza_cbc
+      - action: utter_eleza_cbc
+
+  - rule: Explain CBC goals (English & Swahili)
+    steps:
+      - intent: ask_cbc_goals
+      - action: utter_ask_cbc_goals
+
+  - rule: Explain CBC goals in Swahili
+    steps:
+      - intent: malengo_cbc
+      - action: utter_malengo_cbc
+
+  - rule: List CBC subjects (English & Swahili)
+    steps:
+      - intent: ask_cbc_subjects
+      - action: utter_ask_cbc_subjects
+
+  - rule: List CBC subjects in Swahili
+    steps:
+      - intent: masomo_cbc
+      - action: utter_masomo_cbc
+
+  - rule: Explain CBC grading system (English & Swahili)
+    steps:
+      - intent: ask_cbc_grading_system
+      - action: utter_ask_cbc_grading_system
+
+  - rule: Explain CBC grading system in Swahili
+    steps:
+      - intent: upimaji_cbc
+      - action: utter_upimaji_cbc
+
+  - rule: Explain CBC benefits (English & Swahili)
+    steps:
+      - intent: ask_cbc_benefits
+      - action: utter_ask_cbc_benefits
+
+  - rule: Explain CBC benefits in Swahili
+    steps:
+      - intent: manufaa_cbc
+      - action: utter_manufaa_cbc
+
+  - rule: Explain CBC challenges (English & Swahili)
+    steps:
+      - intent: ask_cbc_challenges
+      - action: utter_ask_cbc_challenges
+
+  - rule: Explain CBC challenges in Swahili
+    steps:
+      - intent: changamoto_cbc
+      - action: utter_changamoto_cbc
+
+  - rule: Explain CBC transitions (English & Swahili)
+    steps:
+      - intent: ask_cbc_transitions
+      - action: utter_ask_cbc_transitions
+
+  - rule: Explain CBC transitions in Swahili
+    steps:
+      - intent: mpito_cbc
+      - action: utter_mpito_cbc
+
+  - rule: Explain CBC assessments (English & Swahili)
+    steps:
+      - intent: ask_cbc_assessment
+      - action: utter_ask_cbc_assessment
+
+  - rule: Explain CBC assessments in Swahili
+    steps:
+      - intent: tathmini_cbc
+      - action: utter_tathmini_cbc
+
+  - rule: Explain CBC implementation (English & Swahili)
+    steps:
+      - intent: ask_cbc_implementation
+      - action: utter_ask_cbc_implementation
+
+  - rule: Explain CBC implementation in Swahili
+    steps:
+      - intent: utekelezaji_cbc
+      - action: utter_utekelezaji_cbc
+
+  - rule: Explain parents' role in CBC (English & Swahili)
+    steps:
+      - intent: ask_cbc_parents_role
+      - action: utter_ask_cbc_parents_role
+
+  - rule: Explain parents' role in CBC in Swahili
+    steps:
+      - intent: jukumu_wazazi_cbc
+      - action: utter_jukumu_wazazi_cbc
+
+  - rule: Explain teachers' role in CBC (English & Swahili)
+    steps:
+      - intent: ask_cbc_teacher_role
+      - action: utter_ask_cbc_teacher_role
+
+  - rule: Explain teachers' role in CBC in Swahili
+    steps:
+      - intent: jukumu_walimu_cbc
+      - action: utter_jukumu_walimu_cbc
+
+  - rule: Explain CBC costs (English & Swahili)
+    steps:
+      - intent: ask_cbc_costs
+      - action: utter_ask_cbc_costs
+
+  - rule: Explain CBC costs in Swahili
+    steps:
+      - intent: gharama_cbc
+      - action: utter_gharama_cbc
+
+  - rule: Handle clarification requests (English & Swahili)
+    steps:
+      - intent: ask_clarify
+      - action: utter_ask_clarify
+
+  - rule: Handle clarification requests in Swahili
+    steps:
+      - intent: fafanua
+      - action: utter_fafanua
+
+  - rule: Provide CBC levels information (English)
+    steps:
+    - intent: ask_cbc_levels
+    - action: utter_ask_cbc_levels
+
+  - rule: Provide CBC levels information in Swahili
+    steps:
+    - intent: ngazi_cbc
+    - action: utter_ngazi_cbc
+
+
+  - rule: Provide CBA general information (English)
+    steps:
+      - intent: ask_cba
+      - action: utter_ask_cba
+
+  - rule: Provide CBA general information in Swahili
+    steps:
+      - intent: uliza_cba
+      - action: utter_uliza_cba
+
+  - rule: Compare CBC and 8-4-4 (English)
+    steps:
+      - intent: compare_cbc_vs_844
+      - action: utter_compare_cbc_vs_844
+
+  - rule: Compare CBC and 8-4-4 (Swahili)
+    steps:
+      - intent: linganisha_cbc_na_844
+      - action: utter_linganisha_cbc_na_844
+
+  - rule: Handle fallback messages (English & Swahili)
+    steps:
+      - intent: nlu_fallback
+      - action: utter_nlu_fallback
+
+  - rule: Handle out-of-scope queries (English & Swahili)
+    steps:
+      - intent: out_of_scope
+      - action: utter_out_of_scope

@@ -1,0 +1,336 @@
+version: "3.1"
+
+nlu:
+  - intent: greet
+    examples: |
+      - hello
+      - hi
+      - hey
+      - good morning
+      - good afternoon
+      - good evening
+      - what's up?
+
+  #Swahili intents
+  - intent: salamu
+    examples: |
+      - habari
+      - sasa
+      - vipi
+      - habari yako
+      - habari za jioni
+
+  - intent: ask_follow_up
+    examples: |
+      - I have another question.
+      - Tell me more.
+      - Can you give me more details?
+      - I need more information.
+
+  #Swahili intents
+  - intent: uliza_zaidi
+    examples: |
+      - Naweza kuuliza swali jingine?
+      - Nipe maelezo zaidi.
+      - Nifafanulie tafadhali.
+      - Niambie zaidi.
+
+  - intent: ask_cbc_info
+    examples: |
+      - How does CBC work?
+      - What are the key features of CBC?
+      - How is CBC different from the previous curriculum?
+
+  #Swahili intents
+  - intent: uliza_cbc
+    examples: |
+      - CBC inahusisha nini?
+      - Ni mambo gani muhimu kuhusu CBC?
+      - CBC inatofautianaje na mfumo wa zamani wa elimu?
+
+  - intent: ask_cbc_overview
+    examples: |
+      - What is the Competency-Based Curriculum (CBC)?
+      - Can you explain CBC?
+      - Tell me about CBC
+      - What is CBC in Kenya?
+
+  #Swahili intents
+  - intent: eleza_cbc
+    examples: |
+      - Eleza kuhusu CBC
+      - Je, unaweza kunieleza CBC ni nini?
+      - CBC ni nini?
+      - Naomba ufafanuzi kuhusu mtaala wa CBC
+
+  - intent: ask_cbc_goals
+    examples: |
+      - What are the goals of the CBC?
+      - What is the aim of CBC in Kenya?
+      - Why do we have the CBC system?
+      - Why was the Competency-Based Curriculum introduced?
+      - What are the long-term goals of CBC in Kenya?
+      - What are the main objectives of the Competency-Based Curriculum?
+
+  # Swahili intents
+  - intent: malengo_cbc
+    examples: |
+      - Malengo ya CBC ni yapi?
+      - Ni nini madhumuni ya CBC?
+      - CBC inalenga kufanikisha nini?
+      - Ni faida gani ambazo CBC inaleta kwa wanafunzi?
+      - Kwa nini mfumo wa CBC ulianzishwa?
+      - CBC inalenga kuimarisha ujifunzaji vipi?
+
+  - intent: ask_cbc_subjects
+    examples: |
+      - What subjects are taught under CBC?
+      - Which subjects are part of CBC?
+      - Can you list the subjects in CBC?
+
+  # Swahili intents
+  - intent: masomo_cbc
+    examples: |
+      - Ni masomo gani yanayofundishwa kwenye CBC?
+      - Ni somo gani ni sehemu ya CBC?
+      - Je, unaweza kutaja masomo yanayohusiana na CBC?
+
+  - intent: ask_cbc_grading_system
+    examples: |
+      - How is grading done in CBC?
+      - What is the grading system for CBC?
+      - Tell me about CBC grading
+      - How do students get graded under CBA?
+
+  # Swahili intents
+  - intent: upimaji_cbc
+    examples: |
+      - Mfumo wa upimaji katika CBC ukoje?
+      - Ni vigezo gani vinatumika kupima wanafunzi katika CBC?
+      - CBC hupimwa vipi?
+      - Je, wanafunzi hupimwaje katika CBA?
+
+  - intent: ask_cbc_benefits
+    examples: |
+      - What are the benefits of CBC?
+      - Why is CBC better than 8-4-4?
+      - How does CBC benefit students?
+
+  # Swahili intents
+  - intent: manufaa_cbc
+    examples: |
+      - CBC ina manufaa gani?
+      - Kwa nini CBC ni bora kuliko 8-4-4?
+      - Je, CBC inawanufaisha vipi wanafunzi?
+
+  - intent: ask_cbc_challenges
+    examples: |
+      - What are the challenges of CBC?
+      - What difficulties are faced by CBC?
+      - Are there any problems with CBC?
+    
+  # Swahili intents
+  - intent: changamoto_cbc
+    examples: |
+      - Ni changamoto zipi za CBC?
+      - Je, kuna matatizo yoyote kuhusu CBC?
+      - Ni matatizo gani yanaathiri utekelezaji wa CBC?
+
+  - intent: ask_cbc_transitions
+    examples: |
+      - How does CBC affect transitioning to high school?
+      - Does CBC help students transition easily?
+      - How does CBC support student transitions?
+
+  # Swahili intents
+  - intent: mpito_cbc
+    examples: |
+      - CBC inaathiri vipi mpito wa wanafunzi hadi shule ya upili?
+      - Je, CBC huwasaidia wanafunzi kuhamia viwango vya juu kwa urahisi?
+      - Mpito wa wanafunzi katika mfumo wa CBC ukoje?
+
+  - intent: ask_cbc_levels
+    examples: |
+      - What are the key levels in the CBC structure?
+      - How is the CBC curriculum structured?
+      - What are the stages of CBC?
+      - Can you list the levels of CBC?
+      - What are the different education levels under CBC?
+      - How many years does CBC take?
+      - What is the progression path in CBC?
+      - How is CBC structured?
+
+ # Swahili intents
+  - intent: ngazi_cbc
+    examples: |
+      - Je, ngazi kuu za CBC ni zipi?
+      - CBC inachukua miaka mingapi?
+      - Mfumo wa elimu wa CBC umegawanywa vipi?
+      - Je, ni viwango vingapi vya elimu mwanafunzi hupitia katika CBC?
+      - CBC inachukua miaka mingapi?
+      - Kuna viwango vingapi vya elimu chini ya CBC?
+      - Ni viwango gani kuu katika muundo wa CBC?
+      - Njia ya maendeleo katika CBC ni ipi?
+
+  - intent: ask_cbc_assessment
+    examples: |
+      - How is CBC assessed?
+      - What kind of assessments are used in CBC?
+      - Is CBC assessed through exams?
+
+  # Swahili intents
+  - intent: tathmini_cbc
+    examples: |
+      - Je, wanafunzi wanapimwaje katika CBC?
+      - Ni aina gani za tathmini zinatumika katika CBC?
+      - CBC inahusisha mitihani gani?
+
+  - intent: ask_cbc_implementation
+    examples: |
+      - How is CBC implemented in schools?
+      - What is the implementation process of CBC in Kenya?
+      - Tell me about the CBC implementation strategy
+
+  # Swahili intents
+  - intent: utekelezaji_cbc
+    examples: |
+      - Je, CBC inatekelezwaje mashuleni?
+      - Mchakato wa utekelezaji wa CBC ukoje?
+      - Naomba ufafanuzi kuhusu jinsi CBC inavyotekelezwa Kenya
+
+  - intent: ask_cbc_parents_role
+    examples: |
+      - What role do parents play in CBC?
+      - How can parents support CBC?
+      - How can parents help with CBC learning?
+
+  # Swahili intents
+  - intent: jukumu_wazazi_cbc
+    examples: |
+      - Wazazi wana jukumu gani katika CBC?
+      - Je, wazazi wanaweza kusaidia vipi utekelezaji wa CBC?
+      - Wazazi wanapaswa kufanya nini ili kusaidia watoto wao katika CBC?
+
+  - intent: ask_cbc_teacher_role
+    examples: |
+      - What is the role of a teacher in CBC?
+      - How should teachers teach under CBC?
+      - What is expected from teachers in CBC?
+
+# Swahili intents
+  - intent: jukumu_walimu_cbc
+    examples: |
+      - Walimu wana jukumu gani katika CBC?
+      - Ni nini kinachotarajiwa kutoka kwa walimu katika CBC?
+      - Je, mwalimu anapaswa kufundishaje katika mfumo wa CBC?
+
+  - intent: ask_cbc_costs
+    examples: |
+      - How much does CBC cost?
+      - Is CBC expensive for parents?
+      - What are the costs associated with CBC?
+
+# Swahili intents
+  - intent: gharama_cbc
+    examples: |
+      - Gharama za CBC ni zipi?
+      - Je, CBC ni ghali kwa wazazi?
+      - Kuna gharama gani zinazohusiana na CBC?
+
+  - intent: ask_clarify
+    examples: |
+      - I didn't get you, can you clarify?
+      - I don't understand, can you explain?
+      - What do you mean? Could you elaborate?
+      - I'm not sure I understand. Can you explain further?
+      - I need more details. Please explain in another way.
+
+# Swahili intents
+  - intent: fafanua
+    examples: |
+      - Sijakupata vizuri, unaweza kufafanua?
+      - Sielewi, unaweza kueleza?
+      - Unamaanisha nini? Unaweza kueleza kwa undani zaidi?
+      - Sina uhakika kama nimeelewa. Unaweza kueleza zaidi?
+      - Nahitaji maelezo zaidi. Tafadhali eleza kwa njia nyingine.
+
+  - intent: compare_cbc_vs_844
+    examples: |
+      - How does CBC differ from the 8-4-4 education system?
+      - What are the differences between CBC and 8-4-4?
+      - Compare the CBC system with the 8-4-4 system.
+      - What changes does CBC bring compared to 8-4-4?
+      - How is CBC better than the old 8-4-4 curriculum?
+      - What were the shortcomings of the 8-4-4 system?
+      - Does CBC address the challenges of 8-4-4?
+      - Why was the 8-4-4 system replaced?
+      - What are the advantages of CBC over 8-4-4?
+
+# Swahili intents
+  - intent: linganisha_cbc_na_844
+    examples: |
+      - CBC inatofautiana vipi na mfumo wa 8-4-4?
+      - Je, kuna tofauti gani kati ya CBC na 8-4-4?
+      - Linganisha mfumo wa CBC na mfumo wa 8-4-4.
+      - Ni mabadiliko gani ambayo CBC inaleta ukilinganisha na 8-4-4?
+      - Kwa nini mfumo wa 8-4-4 ulibadilishwa?
+      - Ni faida gani za CBC ukilinganisha na 8-4-4?
+      - Mfumo wa 8-4-4 ulikuwa na changamoto gani?
+      - Je, CBC ni bora kuliko 8-4-4? Kwa nini?
+      - CBC inawaletea wanafunzi mabadiliko gani mazuri?
+
+  - intent: ask_cba
+    examples: |
+      - What is Competency-Based Assessment (CBA)?
+      - How does CBA work?
+      - Explain CBA to me.
+    
+#Swahili intents
+  - intent: uliza_cba
+    examples: |
+      - Je, Tathmini ya Msingi wa Ujuzi (CBA) ni nini?
+      - Ni njia gani hutumiwa katika CBA?
+      - Nieleze kuhusu CBA
+
+  - intent: nlu_fallback
+    examples: |
+      - I don’t understand
+      - What are you talking about?
+      - Can you repeat that?
+
+# Swahili intents
+  - intent: nlu_fallback
+    examples: |
+      - Sijaelewa
+      - Unasema nini?
+      - Tafadhali rudia
+
+  - intent: out_of_scope
+    examples: |
+      - Can you book a flight for me?
+      - What is the weather like tomorrow?
+      - Tell me about space travel
+
+# Swahili intents
+  - intent: out_of_scope
+    examples: |
+      - Je, unaweza kunipangia safari ya ndege?
+      - Hali ya hewa itakuwaje kesho?
+      - Niambie kuhusu safari za anga
+
+  - intent: goodbye
+    examples: |
+      - goodbye
+      - bye
+      - see you later
+      - have a good day
+      - good night
+
+# Swahili intents
+  - intent: kwaheri
+    examples: |
+      - kwaheri
+      - baadaye
+      - tutaonana
+      - nitakuona baadaye
+      - usiku mwema

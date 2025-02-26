@@ -1,0 +1,222 @@
+version: "3.1"
+
+stories:
+  - story: Greet user (English)
+    steps:
+      - intent: greet
+      - action: utter_greet
+
+  - story: Greet the user (Swahili)
+    steps:
+      - intent: salamu
+      - action: utter_salamu
+
+  - story: Ask follow-up question (English)
+    steps:
+      - intent: ask_follow_up
+      - action: utter_ask_follow_up
+
+  - story: Ask follow-up question (Swahili)
+    steps:
+      - intent: uliza_zaidi
+      - action: utter_uliza_zaidi
+
+  - story: Say goodbye (English)
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
+
+  - story: Say goodbye (Swahili)
+    steps:
+      - intent: kwaheri
+      - action: utter_kwaheri
+
+  - story: User asks about CBC (English)
+    steps:
+      - intent: ask_cbc_info
+      - action: utter_ask_cbc_info
+
+  - story: User asks about CBC (Swahili)
+    steps:
+      - intent: uliza_cbc
+      - action: utter_uliza_cbc
+
+  - story: User asks for CBC overview (English)
+    steps:
+      - intent: ask_cbc_overview
+      - action: utter_ask_cbc_overview
+
+  - story: User asks for CBC overview (Swahili)
+    steps:
+      - intent: eleza_cbc
+      - action: utter_eleza_cbc
+
+  - story: User asks about CBC goals (English)
+    steps:
+      - intent: ask_cbc_goals
+      - action: utter_ask_cbc_goals
+
+  - story: User asks about CBC goals (Swahili)
+    steps:
+      - intent: malengo_cbc
+      - action: utter_malengo_cbc
+ 
+  - story: User asks about CBC subjects (English)
+    steps:
+      - intent: ask_cbc_subjects
+      - action: utter_ask_cbc_subjects
+
+  - story: User asks about CBC subjects (Swahili)
+    steps:
+      - intent: masomo_cbc
+      - action: utter_masomo_cbc
+ 
+  - story: User asks about CBC grading system (English)
+    steps:
+      - intent: ask_cbc_grading_system
+      - action: utter_ask_cbc_grading_system
+
+  - story: User asks about CBC grading system (Swahili)
+    steps:
+      - intent: upimaji_cbc
+      - action: utter_upimaji_cbc
+ 
+  - story: User asks about CBC benefits (English)
+    steps:
+      - intent: ask_cbc_benefits
+      - action: utter_ask_cbc_benefits
+
+  - story: User asks about CBC benefits (Swahili)
+    steps:
+      - intent: manufaa_cbc
+      - action: utter_manufaa_cbc
+
+  - story: User asks about CBC challenges (English)
+    steps:
+      - intent: ask_cbc_challenges
+      - action: utter_ask_cbc_challenges
+
+  - story: User asks about CBC challenges (Swahili)
+    steps:
+      - intent: changamoto_cbc
+      - action: utter_changamoto_cbc
+
+  - story: User asks about CBC costs (English)
+    steps:
+      - intent: ask_cbc_costs
+      - action: utter_ask_cbc_costs
+
+  - story: User asks about CBC costs (Swahili)
+    steps:
+      - intent: gharama_cbc
+      - action: utter_gharama_cbc
+
+  - story: User requests clarification (English)
+    steps:
+      - intent: ask_clarify
+      - action: utter_ask_clarify
+
+  - story: User requests clarification (Swahili)
+    steps:
+      - intent: fafanua
+      - action: utter_fafanua
+
+  - story: User asks about CBC transitions (English)
+    steps:
+      - intent: ask_cbc_transitions
+      - action: utter_ask_cbc_transitions
+
+  - story: User asks about CBC transitions (Swahili)
+    steps:
+      - intent: mpito_cbc
+      - action: utter_mpito_cbc
+
+  - story: User asks about CBC assessment (English)
+    steps:
+      - intent: ask_cbc_assessment
+      - action: utter_ask_cbc_assessment
+
+  - story: User asks about CBC assessment (Swahili)
+    steps:
+      - intent: tathmini_cbc
+      - action: utter_tathmini_cbc
+
+  - story: User asks about CBC implementation (English)
+    steps:
+      - intent: ask_cbc_implementation
+      - action: utter_ask_cbc_implementation
+
+  - story: User asks about CBC implementation (Swahili)
+    steps:
+      - intent: utekelezaji_cbc
+      - action: utter_utekelezaji_cbc
+
+  - story: User asks about CBC parents' role (English)
+    steps:
+      - intent: ask_cbc_parents_role
+      - action: utter_ask_cbc_parents_role
+
+  - story: User asks about CBC parents' role (Swahili)
+    steps:
+      - intent: jukumu_wazazi_cbc
+      - action: utter_jukumu_wazazi_cbc
+
+  - story: User asks about CBC teachers' role (English)
+    steps:
+      - intent: ask_cbc_teacher_role
+      - action: utter_ask_cbc_teacher_role
+
+  - story: User asks about CBC teachers' role (Swahili)
+    steps:
+      - intent: jukumu_walimu_cbc
+      - action: utter_jukumu_walimu_cbc
+
+  - story: Handle CBA queries (English)
+    steps:
+      - intent: ask_cba
+      - action: utter_ask_cba
+
+  - story: Handle CBA queries (Swahili)
+    steps:
+      - intent: uliza_cba
+      - action: utter_uliza_cba
+
+  - story: Handle CBC levels queries (English)
+    steps:
+      - intent: ask_cbc_levels
+      - action: utter_ask_cbc_levels
+
+  - story: Handle CBC levels queries (Swahili)
+    steps:
+      - intent: ngazi_cbc
+      - action: utter_ngazi_cbc
+
+  - story: Handle CBC vs 8-4-4 comparison (English)
+    steps:
+      - intent: compare_cbc_vs_844
+      - action: utter_compare_cbc_vs_844
+
+  - story: Handle CBC vs 8-4-4 comparison (Swahili)
+    steps:
+      - intent: linganisha_cbc_na_844
+      - action: utter_linganisha_cbc_na_844
+
+  - story: Handle fallback responses (English)
+    steps:
+      - intent: nlu_fallback
+      - action: utter_nlu_fallback
+
+  - story: Handle fallback responses (Swahili)
+    steps:
+      - intent: nlu_fallback
+      - action: utter_nlu_fallback
+
+  - story: Handle out-of-scope queries (English)
+    steps:
+      - intent: out_of_scope
+      - action: utter_out_of_scope
+
+  - story: Handle out-of-scope queries (Swahili)
+    steps:
+      - intent: out_of_scope
+      - action: utter_out_of_scope
