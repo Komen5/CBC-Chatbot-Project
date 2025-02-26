@@ -1,0 +1,218 @@
+version: "3.1"
+
+intents:
+  - greet
+  - salamu
+  - ask_follow_up
+  - uliza_zaidi
+  - ask_cbc_info
+  - uliza_cbc
+  - ask_cbc_overview
+  - eleza_cbc
+  - ask_cbc_goals
+  - malengo_cbc
+  - ask_cbc_subjects
+  - masomo_cbc
+  - ask_cbc_grading_system
+  - upimaji_cbc
+  - ask_cbc_benefits
+  - manufaa_cbc
+  - ask_cbc_challenges
+  - changamoto_cbc
+  - ask_cbc_transitions
+  - mpito_cbc
+  - ask_cbc_assessment
+  - tathmini_cbc
+  - ask_cbc_implementation
+  - utekelezaji_cbc
+  - ask_cbc_parents_role
+  - jukumu_wazazi_cbc
+  - ask_cbc_teacher_role
+  - jukumu_walimu_cbc
+  - ask_cbc_costs
+  - gharama_cbc
+  - ask_clarify
+  - ask_cbc_levels
+  - ngazi_cbc
+  - fafanua
+  - ask_cba
+  - uliza_cba
+  - nlu_fallback
+  - out_of_scope
+  - goodbye
+  - kwaheri
+  - compare_cbc_vs_844
+  - linganisha_cbc_na_844
+
+responses:
+  utter_greet:
+    - text: "Hello! I am a CBC chatbot, here to provide information and assistance. What would you like to ask about CBC?"
+
+  utter_salamu:
+    - text: "Habari! Mimi ni chatbot wa CBC, niko hapa kukupa taarifa na msaada. Ungependa kuuliza nini kuhusu CBC?"
+
+  utter_ask_cbc_info:
+    - text: "The Competency-Based Curriculum (CBC) is an education system designed to emphasize practical skills and learner-centered teaching. What specific aspect would you like to know?"
+
+  utter_uliza_cbc:
+    - text: "Mtaala wa CBC ni mfumo wa elimu unaolenga ujuzi wa vitendo na ufundishaji unaomlenga mwanafunzi. Ungependa kujua nini haswa?"
+
+  utter_ask_follow_up:
+    - text: "Feel free to ask, I'm here to assist with any CBC-related queries!"
+
+  utter_uliza_zaidi:
+    - text: "Kuwa huru kuuliza, niko hapa kusaidia na maswali yoyote kuhusu CBC!"
+
+  utter_ask_cbc_overview:
+    - text: "The Competency-Based Curriculum (CBC) is an educational system in Kenya designed to equip learners with skills, knowledge, and attitudes that prepare them for real-life challenges."
+
+  utter_eleza_cbc:
+    - text: "Mtaala wa CBC ni mfumo wa elimu nchini Kenya uliobuniwa ili kuwapa wanafunzi ujuzi, maarifa, na mtazamo unaowasaidia kukabiliana na changamoto za maisha."
+
+  utter_ask_cbc_goals:
+    - text: "CBC aims to develop learners' creativity, problem-solving skills, and practical knowledge to enhance their career readiness."
+
+  utter_malengo_cbc:
+    - text: "CBC inalenga kukuza ubunifu wa wanafunzi, ujuzi wa kutatua matatizo, na maarifa ya vitendo ili kuwasaidia kuwa tayari kwa kazi."
+
+  utter_ask_cbc_subjects:
+    - text: "CBC includes subjects such as Mathematics, English, Kiswahili, Science, Social Studies, Life Skills, and Creative Arts."
+
+  utter_masomo_cbc:
+    - text: "Mtaala wa CBC unajumuisha masomo kama Hisabati, Kiingereza, Kiswahili, Sayansi, Maarifa ya Jamii, Ujuzi wa Maisha, na Sanaa za Ubunifu."
+
+  utter_ask_cbc_grading_system:
+    - text: "CBC uses a competency-based assessment system where learners are evaluated through projects, coursework, and practical skills."
+
+  utter_upimaji_cbc:
+    - text: "CBC hutumia mfumo wa tathmini wa msingi wa umahiri ambapo wanafunzi hupimwa kupitia miradi, kazi za darasani, na ujuzi wa vitendo."
+
+  utter_ask_cbc_benefits:
+    - text: "CBC encourages hands-on learning, critical thinking, and skill development, making education more engaging and relevant."
+
+  utter_manufaa_cbc:
+    - text: "CBC inahimiza ujifunzaji wa vitendo, fikira za kina, na kukuza ujuzi, na hivyo kufanya elimu kuwa ya kuvutia na yenye manufaa."
+
+  utter_ask_cbc_challenges:
+    - text: "Challenges of CBC include a lack of resources, teacher training gaps, and difficulties in adaptation by parents and students."
+
+  utter_changamoto_cbc:
+    - text: "Changamoto za CBC ni pamoja na uhaba wa rasilimali, ukosefu wa mafunzo kwa walimu, na ugumu wa wazazi na wanafunzi kuzoea mfumo huu."
+
+  utter_ask_cbc_transitions:
+    - text: "CBC facilitates smoother transitions by focusing on competency rather than memorization, preparing students for lifelong learning."
+
+  utter_mpito_cbc:
+    - text: "CBC husaidia mpito kwa urahisi kwa kuzingatia umahiri badala ya kukariri, na kuwaandaa wanafunzi kwa elimu ya maisha yote."
+
+  utter_ask_cbc_assessment:
+    - text: "Learners are assessed through practical projects, presentations, and continuous evaluation rather than relying only on final exams."
+
+  utter_tathmini_cbc:
+    - text: "Wanafunzi hupimwa kwa kutumia miradi ya vitendo, mawasilisho, na tathmini endelevu badala ya kutegemea mitihani ya mwisho pekee."
+
+  utter_ask_cbc_levels:
+    - text: "The CBC structure consists of different education levels, including Early Years Education (EYE), Middle School, and Senior School. It typically takes 17 years to complete."
+  
+  utter_ngazi_cbc:
+    - text: "Mfumo wa CBC unajumuisha viwango tofauti vya elimu kama vile Elimu ya Awali (EYE), Shule ya Kati, na Shule ya Juu. Kwa ujumla, inachukua miaka 17 kukamilika."
+
+  utter_ask_cbc_implementation:
+    - text: "The Kenyan government, teachers, and parents play key roles in implementing CBC through training, resources, and community engagement."
+
+  utter_utekelezaji_cbc:
+    - text: "Serikali ya Kenya, walimu, na wazazi wana jukumu muhimu katika kutekeleza CBC kupitia mafunzo, rasilimali, na ushirikiano wa jamii."
+
+  utter_ask_cbc_parents_role:
+    - text: "Parents support CBC by helping with home learning activities, engaging in school projects, and encouraging their children's curiosity."
+
+  utter_jukumu_wazazi_cbc:
+    - text: "Wazazi wanasaidia CBC kwa kusaidia watoto wao katika shughuli za kujifunza nyumbani, kushiriki katika miradi ya shule, na kuwahimiza watoto wao kuwa na udadisi."
+
+  utter_ask_cbc_teacher_role:
+    - text: "Teachers in CBC act as facilitators, guiding students in skill-based and practical learning rather than just delivering content."
+
+  utter_jukumu_walimu_cbc:
+    - text: "Walimu katika CBC ni wawezeshaji wa elimu, wakiongoza wanafunzi katika kujifunza kwa umahiri na vitendo badala ya kufundisha tu nadharia."
+
+  utter_ask_cbc_costs:
+    - text: "CBC costs vary, but the government provides support to ensure affordability, though some parents may struggle with extra materials."
+
+  utter_gharama_cbc:
+    - text: "Gharama za CBC hutofautiana, lakini serikali hutoa msaada kuhakikisha elimu ni nafuu, ingawa baadhi ya wazazi hupata changamoto katika ununuzi wa vifaa vya ziada."
+
+  utter_ask_clarify:
+    - text: "Yes, sure! I can explain further. What part would you like me to clarify?"
+
+  utter_fafanua:
+    - text: "Ndio, bila shaka! Naweza kufafanua zaidi. Ni sehemu gani ungependa kufafanuliwa?"  
+
+  utter_ask_cba:
+    - text: "Competency-Based Assessment (CBA) is an evaluation method that measures a learner’s ability to apply knowledge and skills rather than memorizing facts. It focuses on real-world competencies and helps students become job-ready."
+
+  utter_uliza_cba:
+    - text: "Tathmini ya Msingi wa Ujuzi (CBA) ni mbinu ya tathmini inayopima uwezo wa mwanafunzi kutumia maarifa na ujuzi badala ya kukariri. Inalenga ujuzi wa maisha halisi na kuwaandaa wanafunzi kwa kazi."  
+
+  utter_compare_cbc_vs_844:
+    - text: "CBC differs from the 8-4-4 system by focusing on competency-based learning rather than exam-driven education. It emphasizes skills, creativity, and real-world applications, unlike 8-4-4, which prioritized theoretical knowledge and memorization."
+
+  utter_linganisha_cbc_na_844:
+    - text: "CBC inatofautiana na mfumo wa 8-4-4 kwa kusisitiza elimu inayotegemea ujuzi badala ya mitihani. Inazingatia ujuzi, ubunifu, na matumizi ya maarifa katika maisha halisi, tofauti na 8-4-4 ambayo ilihimiza zaidi nadharia na kukariri."
+
+  utter_nlu_fallback:
+    - text: "I'm sorry, I didn't understand that. Could you please rephrase?"
+    - text: "Samahani, sijaelewa hilo. Tafadhali jaribu kuuliza kwa njia nyingine."
+
+  utter_out_of_scope:
+    - text: "I'm here to assist with CBC-related questions. Could you ask something related to CBC?"
+    - text: "Niko hapa kusaidia kwa maswali kuhusu CBC. Tafadhali uliza jambo linalohusiana na CBC."
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day and feel free to ask anytime."
+
+  utter_kwaheri:
+    - text: "Kwaheri! Uwe na siku njema, na jisikie huru kuuliza wakati wowote."
+
+actions:
+ - utter_ask_cbc_assessment
+ - utter_ask_cbc_benefits
+ - utter_ask_cbc_challenges
+ - utter_ask_cbc_costs
+ - utter_ask_cbc_goals
+ - utter_ask_cbc_grading_system
+ - utter_ask_cbc_implementation
+ - utter_ask_cbc_info
+ - utter_ask_cbc_overview
+ - utter_ask_cbc_parents_role
+ - utter_ask_cbc_subjects
+ - utter_ask_cbc_teacher_role
+ - utter_ask_cbc_transitions
+ - utter_ask_clarify
+ - utter_ask_follow_up
+ - utter_changamoto_cbc
+ - utter_eleza_cbc
+ - utter_fafanua
+ - utter_nlu_fallback
+ - utter_gharama_cbc
+ - utter_goodbye
+ - utter_greet
+ - utter_jukumu_walimu_cbc
+ - utter_jukumu_wazazi_cbc
+ - utter_kwaheri
+ - utter_malengo_cbc
+ - utter_manufaa_cbc
+ - utter_masomo_cbc
+ - utter_mpito_cbc
+ - utter_out_of_scope
+ - utter_salamu
+ - utter_tathmini_cbc
+ - utter_uliza_cbc
+ - utter_uliza_zaidi
+ - utter_upimaji_cbc
+ - utter_utekelezaji_cbc 
+ - utter_ask_cba
+ - utter_uliza_cba
+ - utter_ask_cbc_levels
+ - utter_ngazi_cbc
+ - utter_compare_cbc_vs_844
+ - utter_linganisha_cbc_na_844
