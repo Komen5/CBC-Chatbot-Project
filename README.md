@@ -99,6 +99,44 @@ The following predictive models (Random Forest, XGBoost, and Logistic Regression
 
 3. Logistic Regression: This model struggles the most, misclassifying many Negative cases and showing lower accuracy for Neutral and Positive predictions compared to XGBoost.
 
+# Rasa Model
+Created and structured key Rasa files using rasa train in the git bash :
+
+* nlu.yml – Contains training data for intent classification and entity recognition.
+
+* stories.yml – Defines conversation flows as example dialogues (stories) for the chatbot to learn from.
+
+* rules.yml – Specifies predefined responses or strict conversation patterns (e.g., FAQ responses).
+
+* domain.yml – Lists intents, entities, actions, responses, and slots that define the chatbot’s behavior.
+
+* config.yml – Contains model pipeline settings (for NLU - Natural Language Understanding) and policies (for Core - Dialogue Management) that determine how the bot processes messages.
+### Rasa-model Evaluation
+Evaluated model predictions and adjusted training data accordingly.
+
+The evaluation of the intent_report.json file revealed that the Rasa NLU model achieved a high overall accuracy of 96.1%, indicating strong intent classification performance.
+
+Key Metrics:
+
+Overall Accuracy: 96.1% – Correctly predicted intents for the majority of test cases.
+
+Macro-Average Scores:
+
+ - Precision: 95.5% – Accuracy of predicted intents.
+
+
+ - Recall: 96.8% – Proper identification of actual intents.
+
+ - F1-Score: 95.7% – Balanced measure of precision and recall.
+
+These results highlight the model's effectiveness in accurately identifying and classifying user intents.
+
+The overall evaluation metrics demonstrate that the Rasa NLU and Core models exhibit outstanding performance. With an overall accuracy of 96.1% for intent classification and 100% for conversation accuracy, the models consistently make correct predictions with high precision, recall, and F1-scores. Most intents are classified perfectly, while misclassifications are minimal and primarily occur in ambiguous cases with lower confidence.
+
+The model's high-confidence predictions are reliably accurate, while incorrect predictions are associated with low-confidence scores.
+
+## Deployment
+This Flask-based chatbot application integrates with the Rasa server, providing a web-based chat interface for users to interact with SomaBot. The Flask server hosts a simple HTML and JavaScript frontend, allowing users to send messages, which are processed by Rasa through an API request. The chatbot responds based on trained intents and stories, and the replies are displayed in the chat interface. The application ensures smooth interaction by handling errors and maintaining a responsive design. Styled with HTML and CSS, it features a user-friendly chat layout. Flask runs the application, forwarding messages to Rasa and returning appropriate chatbot responses.
 
 ## Conclusion
 
