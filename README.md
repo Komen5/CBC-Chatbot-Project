@@ -83,4 +83,43 @@ Manual Curation – Collecting FAQs from government documents.
 5. To build and evaluate predictive models (Random Forest, XGBoost, and Logistic Regression) for sentiment classification, comparing their performance in accurately classifying CBC-related tweets.
 
 ## Success Metrics
-1. For the sentiment classification models to achieve an accuracy and F 1 Score of at least 60%
+
+1. The ideal sentiment classification model should attain a minimum F1 score of 60%.
+2. The top-performing chatbot model should achieve at least 90%.
+3. To successfully classify tweets into different sentiments (Neutral, Positive, Negative).
+
+
+## Modeling
+The following predictive models (Random Forest, XGBoost, and Logistic Regression) were built for sentiment classification, and their performance in accurately classifying CBC-related tweets was compared.
+
+### Evaluation of the models
+1. Random Forest: This model struggles to classify Negative cases correctly, predicting all as Neutral or Positive. It performs well on Neutral and Positive cases but misclassifies some Positive cases as Neutral.
+
+2. XGBoost: This model shows better balance, with more accurate classifications for Neutral and Positive cases. However, it still misclassifies some Negative cases as Neutral or Positive.
+
+3. Logistic Regression: This model struggles the most, misclassifying many Negative cases and showing lower accuracy for Neutral and Positive predictions compared to XGBoost.
+
+
+## Conclusion
+
+1. In conclusion, the most common inquiries surrounding CBC implementation emphasize self-expression, agricultural education, rural support, creativity, civic responsibility, innovation, teacher support, extracurricular activities, ethical decision-making, and financial literacy. These concerns reflect the key areas stakeholders consider crucial for the curriculum's success and effectiveness.
+
+2. The NLP-based sentiment analysis using VADER and TextBlob provided valuable insights into public perception of the education system, highlighting key sentiments that can inform strategic decision-making and policy improvements.
+
+3. The analysis suggests that most people have a positive outlook on CBC, as positive sentiment has consistently led, peaking in 2024. While there are increasing neutral discussions and some mild concerns, the overall trend indicates that the majority of public sentiment is favorable.
+
+4. The sentiment classification model that performed best was XGBoost, achieving a weighted F1-score of 0.65, indicating strong overall performance in sentiment prediction.
+
+5. The Rasa model for the somabot demonstrates outstanding performance, achieving an F1 score of 95.7%  and 96.1% intent classification accuracy. With high precision and recall, it consistently makes correct predictions, with minimal misclassifications occurring in ambiguous cases.
+
+## Recommendation
+
+1. Strengthen CBC key focus areas: Self-expression, agricultural education, rural support, creativity, civic responsibility, innovation, teacher support, extracurricular activities, ethical decision-making, and financial literacy by developing targeted policies and resources to enhance curriculum effectiveness.
+
+2. Policymakers should sustain and build on the positive sentiment peak in 2024 by addressing concerns in neutral and negative discussions through public awareness campaigns that clarify misconceptions and reinforce CBC’s benefits.
+
+3. As neutral discussions rise, further analysis is needed to understand shifting public discourse and potential concerns, while implementing feedback mechanisms to continuously improve CBC based on evolving public opinion.
+
+4. Enhance sentiment classification accuracy by incorporating additional training data, and exploring advanced NLP techniques like transformer-based models.
+
+5. Enhance chatbot capabilities by training it on more data to improve real-time assistance, curriculum guidance, and automated responses to CBC-related queries.
